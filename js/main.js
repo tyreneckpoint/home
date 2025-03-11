@@ -25,7 +25,13 @@ $('#p1,#p2,#p3,#p4,#p5').hover(function(e){
 
 /*Scroll Effect*/
 
-			$(document).ready(function(){
+$(document).ready(function(){
+	
+	let facebookButton = document.getElementById('tnp.button.facebook');
+	facebookButton.addEventListener('click', () => 
+	{
+		window.open('https://www.facebook.com/groups/1776013752684277', '_blank').focus();
+	});
 				
 				//Check to see if the window is top if not then display button
 				$(window).scroll(function(){
